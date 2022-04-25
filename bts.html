@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+        <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html">  <img src="images/logo.png" width="125px"> </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/inbox.png" width="28px" height="28px">
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+
+</div>
+
+
+<!--group header-->
+<div class="about-group">
+<div class="row">
+    <div class="col-2">
+        <img src="images/bts group.jpg">
+    </div>
+    <div class="col-2">
+        <h1>
+            BTS (방탄소년단) - </h1>
+             <p> is a South Korean boy band that was formed in 2010 and debuted in 2013 under Big Hit Entertainment.<br>
+             Consisting of members Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook—co-writes and co-produces much of their own output.<br></p>
+        
+    </div>
+</div>
+</div>
+
+<!--products with this group-->
+
+<div class="all-products">
+    <div class="small-container">
+        <h2>Categories</h2>
+        <div class="row">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/bts ly tear.jpg">
+                    <h4>Albums</h4>
+                </div>
+                <div class="col-3">
+                   <a href="cardpage.html"> <img src="images/bts pc.jpg ">
+                    <h4>Photocards</h4>
+                </div>
+                <div class="col-3">
+                    <img src="images/bts lightstick.jpg">
+                    <h4>Other Merchandise</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Promoted products-->
+<div class="bts-promoted">
+    <div class="small-sontainer">
+        <h2>Promoted Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/bts wings.jpg">
+                <p>Buy</p>
+                <h4>BTS 2nd Album WINGS, 4th Version</h4>
+                    <p>up to 30$</p>
+            </div>
+            <div class="col-4">
+                <img src="images/v xylitol.jpg">
+                <p>Sell</p>
+                <h4>BTS x Xylitol Gum - V Taehyung</h4>
+                    <p>$20</p>
+            </div>
+            <div class="col-4">
+                <img src="images/suga butter.jpg">
+                <p>Exchange</p>
+                <h4>BTS SUGA Butter Soundwave Lucky draw </h4>
+                    <p>to BTS Jungkook Butter Soundwave Lucky draw </p>
+            </div>
+            <div class="col-4">
+                <img src="images/bts mots 7 jp.jpg">
+                <p>Wishlist</p>
+                <h4>BTS Map Of The Soul: The Journey JP Album </h4>
+                    <p>N/A</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="images/logo1.png">
+                <p> Our purpose is to make people a little bit happier</p>
+
+            </div>
+            <div class="footer-col-2">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Privacy policy</li>
+                    <li>FAQ</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3> Follow us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>

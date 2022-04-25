@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+        <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html">  <img src="images/logo.png" width="125px"> </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/inbox.png" width="28px" height="28px">
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+
+</div>
+
+
+
+<!--card header-->
+<div class="about-card">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/bts yoongi.jpg">
+        </div>
+        <div class="col-2">
+            <h1>
+                BTS SUGA <br>
+                Love Yourself Answer ver F
+             </h1>
+               
+            
+        </div>
+    </div>
+    </div>
+
+    <!--cards list-->
+    <div class="all-cards">
+        <div class="small-container">
+            <h2>All Products</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/bts suga.jpg">
+                    <p>taemincatboi</p>
+                        <h4>Sell</h4>
+                            <p>$20</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/bts suga 2.jpg">
+                        <p>jennieejane</p>
+                        <h4>Exchange</h4>
+                            <p>to Jungkook Love Yourself Answer ver F </p>
+                    </div>
+            
+                    
+                    <div class="col-3">
+                        
+                        <img src="images/bts yoongi cr.jpg">
+                        <p>yoniiestar</p>
+                        <h4>Buy</h4>
+                            <p> up to 40$</p>
+                        
+                    </div>
+                    <div class="col-3">
+                        
+                        <img src="images/bts suga 4.jpg">
+                         
+                        <p>jamsiblue</p>
+                        <h4>Exchange</h4>
+                            <p>to RM Love Yourself Answer ver F</p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="images/logo1.png">
+                <p> Our purpose is to make people a little bit happier</p>
+
+            </div>
+            <div class="footer-col-2">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Privacy policy</li>
+                    <li>FAQ</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3> Follow us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>

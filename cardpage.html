@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+        <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html">  <img src="images/logo.png" width="125px"> </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/inbox.png" width="28px" height="28px">
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+
+</div>
+
+
+
+<div class="all-cards-bts">
+<div class="container">
+    <div class="row row-2">
+        <h3>All Products</h3>
+        <select>
+            <option>Default</option>
+            <option>Sort by Name</option>
+            <option>Sort by Popularity</option>
+            <option>Sort by Year</option>
+            
+        </select>
+
+    </div>
+    
+    <div class="row">
+        <div class="col-3">
+            <img src="images/bts jhope.jpg">
+            <h4>Love Yourself: Answer ver. F</h4>
+                <p>BTS J-HOPE</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts yoongi 2.jpg">
+            <h4>Love Yourself: Tear ver. O</h4>
+                <p>BTS SUGA</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts rm.jpg">
+            <h4>Love Yourself: Answer ver. F</h4>
+                <p>BTS RM</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts rm 2.jpg">
+            <h4> Love Yourself: Her ver.O </h4>
+                <p>BTS RM</p>
+        </div>
+        <div class="col-3">
+            <a href="singlecard.html"> <img src="images/bts yoongi.jpg">
+            <h4>Love Yourself: Answer ver. F</h4>
+                <p>BTS SUGA</p> </a>
+        </div>
+        <div class="col-3">
+            <img src="images/bts jhope 2.jpg">
+            <h4>Map Of The Soul: Persona ver.4</h4>
+                <p>BTS J-HOPE</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts jimin 2.jpg">
+            <h4>Map Of The Soul: 7 ver.2</h4>
+                <p>BTS JIMIN</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts jimin.jpg">
+            <h4>Love Yourself: Answer ver. L</h4>
+                <p>BTS JIMIN</p>
+        </div>
+        <div class="col-3">
+            <img src="images/bts jungkook.jpg">
+            <h4>Love Yourself: Answer ver. F</h4>
+                <p>BTS Jungkook</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594</span>
+</div>
+
+
+
+<!--footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="images/logo1.png">
+                <p> Our purpose is to make people a little bit happier</p>
+
+            </div>
+            <div class="footer-col-2">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Privacy policy</li>
+                    <li>FAQ</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3> Follow us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>

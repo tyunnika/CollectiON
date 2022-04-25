@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+        <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html">  <img src="images/logo.png" width="125px"> </a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Wishlist</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/inbox.png" width="28px" height="28px">
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+
+</div>
+
+
+<!--single product details-->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/twice fol.jpg" >
+        </div>
+        <div class="col-2">
+            <p>Home / Sell / TWICE</p>
+            <h1>TWICE - Full Album Vol.3 [Formula of Love: O+T=<3]</h1>
+            <h4>$20.00</h4>
+            <a href="" class="btn">Contact to Seller</a>
+            <h3>Description</h3>
+            <p>[TWICE] THE 3RD FULL AIBUM Formula of Love O+T=<3 Official PHOTOBOOK +CD+STICKER</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="promoted">
+<div class="small-container">
+   
+    </div>
+    
+    <div class="row">
+        <div class="col-4">
+            <img src="images/jungkook.jpg">
+            <p>Sell</p>
+            <h4>BTS Jungkook Butter PC</h4>
+                <p>20$</p>
+        </div>
+        <div class="col-4">
+            <img src="images/taeyon.jpg">
+            <p>Exchange</p>
+            <h4>NCT Taeyong Resonance 2020</h4>
+                <p>to Jaehyun Resonance 2020</p>
+        </div>
+        <div class="col-4">
+            <img src="images/hryvnia.jpg">
+            <p>Buy</p>
+            <h4>coin up to 30 years of independence of Ukraine</h4>
+                <p>2000$</p>
+        </div>
+       
+        
+    </div>
+</div>
+</div>
+
+
+
+
+
+<!--footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="images/logo1.png">
+                <p> Our purpose is to make people a little bit happier</p>
+
+            </div>
+            <div class="footer-col-2">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Privacy policy</li>
+                    <li>FAQ</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3> Follow us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
